@@ -20,3 +20,16 @@ This should:
 3. Adds FreeTAKServer to cron to make sure FTS runs automatically
 4. Create a symlink folder at ~/FTS which links to the main FreeTAKServer folder
 5. Create a symlink folder at ~/FTS-UI which links to the main FreeTAKServer-UI folder
+
+## Proxmox Container
+Ubuntu 20.04 LXC
+
+```
+apt update
+apt full-upgrade -y
+apt install \
+      curl \
+      python3-requests
+      
+curl -L https://git.io/JLSRp | sudo python3 -
+```
